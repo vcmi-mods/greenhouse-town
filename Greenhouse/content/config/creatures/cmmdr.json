@@ -16,6 +16,9 @@
 		"fightValue" : 130,
 		"aiValue" : 156,
 		"shots" : 24,
+		"cost" : {
+			"gold" : 2000
+		},
 		"abilities" :
 		{
 			"magicResistance" :

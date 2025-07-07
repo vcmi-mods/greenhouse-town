@@ -3,13 +3,13 @@
 	"description" : "Greenhouse - Town of Vegetables and Fruits.",
 	"author" : "Mad Hatter Workshop",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=42323",
-	"version" : "0.2.6",
+	"version" : "0.2.7",
 	"modType" : "Town",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 		"german" : {
 		"name" : "Gewächshaus",
@@ -35,8 +35,9 @@
 	},
 	"changelog" :
     {
+		"0.2.7"  : [ "Update to vcmi-1.7 format" ],
 		"0.2.6"  : [ "Added Ukrainian translation" ],
-	    	"0.2.5"  : [ "Fix Grail not to produce gold" ],
+	    "0.2.5"  : [ "Fix Grail not to produce gold" ],
 		"0.2.4"  : [ "Update to vcmi-1.6 format" ],
 		"0.2.3"  : [ "Custom guild render by Fabrice-TIERCELIN" ],
 		"0.2.2"  : [ "Added the creatures' stackExp and fixed the commander" ],
