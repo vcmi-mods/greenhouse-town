@@ -39,7 +39,7 @@
 		"specialty" : {
 				"tooltip" : "Creature Bonus: Broccoli",
 				"name" : "Broccoli",
-				"description" : "{Broccoli and Broccoli Lord}\r\n\r\nIncreases Speed of any Broccoli or Broccoli Lord by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)."
+				"description" : "Increases Speed of any Broccoli or Broccoli Lord by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)."
 			}
 		},
 		"spellbook" : [ "dispel" ],

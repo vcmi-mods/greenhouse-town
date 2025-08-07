@@ -33,7 +33,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Cucumbers",
 				"name" : "Cucumbers",
-				"description" : "{Cucumbers and Cossack Cucumbers}\r\n\r\nIncreases Speed of any Cucumbers or Cossack Cucumbers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
+				"description" : "Increases Speed of any Cucumbers or Cossack Cucumbers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
 			}
 		},	
 		"specialty" : {

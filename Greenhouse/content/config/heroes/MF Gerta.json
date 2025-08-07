@@ -36,14 +36,14 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Fireball",
 				"name" : "Fireball",
-				"description" : "{Fireball}\r\n\r\nCasts Firebal with damage increased by 3% for every n hero levels (n - target creature level)."
+				"description" : "Casts Firebal with damage increased by 3% for every n hero levels (n - target creature level)."
 			}
 		},
 		"spellbook" : [ "fireball" ],
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {
-					"subtype" : "spell.fireball",
+					"subtype" : "fireball",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

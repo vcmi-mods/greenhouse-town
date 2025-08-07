@@ -34,7 +34,7 @@
 		"specialty" : {
 				"tooltip" : "Creature Bonus: Potatoes",
 				"name" : "Potatoes",
-				"description" : "{ Potatoes and Noble potatoes}\r\n\r\nIncreases Speed of any Potatoes or Noble potatoes by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up)."
+				"description" : "Increases Speed of any Potatoes or Noble potatoes by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up)."
 			}
 		},
 		"specialty" : {

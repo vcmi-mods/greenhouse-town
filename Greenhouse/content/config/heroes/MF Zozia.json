@@ -37,7 +37,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Mirth",
 				"name" : "Mirth",
-				"description" : "{Mirth}\r\n\r\nCasts Mirth with double duration."
+				"description" : "Casts Mirth with double duration."
 			}
 		},
 		"spellbook" : [ "mirth" ],
@@ -46,7 +46,7 @@
 				"mirth" : {
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"subtype" : "spell.mirth",
+					"subtype" : "mirth",
 					"type" : "SPELL_DURATION"
 				}
 			}

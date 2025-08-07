@@ -35,7 +35,7 @@
 		"specialty" : {
 				"tooltip" : "Creature Bonus: Onions",
 				"name" : "Onions",
-				"description" : "{Onions and Samurai Onion}\r\n\r\nIncreases Speed of any Onions or Samurai Onion by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
+				"description" : "Increases Speed of any Onions or Samurai Onion by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
 			}
 		},
 		"specialty" : {

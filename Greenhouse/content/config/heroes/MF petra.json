@@ -37,20 +37,11 @@
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: First Aid",
 				"name" : "First Aid",
-				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage."
+				"description" : "Receives a 5% per level bonus to First Aid skill percentage."
 			}
 		},
 		"specialty" : {
-			"bonuses" : {
-				"firstAid" : {
-					"subtype" : "core:spell.firstAid",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPECIFIC_SPELL_POWER",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "firstAid" 
 		}
 	}
 }

@@ -14,8 +14,7 @@
 						"wood"    : 5,
 						"ore"     : 5,
 						"gold" : 2000
-					},
-					"id" : 0,
+					}
 				},
 				"mageGuild2" :
 				{
@@ -30,9 +29,7 @@
 						"crystal" : 2,
 						"gems"    : 2,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
+					}
 				},
 				"mageGuild3" :
 				{
@@ -47,9 +44,7 @@
 						"crystal" : 6,
 						"gems"    : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" :
 				{
@@ -64,9 +59,7 @@
 						"crystal" : 8,
 						"gems"    : 8,
 						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -81,9 +74,7 @@
 						"crystal" : 10,
 						"gems"    : 10,
 						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -93,8 +84,7 @@
 					{
 						"ore" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"shipyard" :
 				{
@@ -104,8 +94,7 @@
 					{
 						"wood" : 20,
 						"gold" : 2000
-					},
-					"id" : 6
+					}
 				},
 				"fort" :
 				{
@@ -116,8 +105,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
@@ -128,9 +116,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -141,16 +127,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
@@ -159,10 +141,7 @@
 					"cost" :
 					{
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [ "allOf",["citadel"] ],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" :
 				{
@@ -171,10 +150,7 @@
 					"cost" :
 					{
 						"gold" : 5000
-					},
-					"requires" : [ "allOf",["mageGuild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
-					"upgrades" : "townHall"
+					}
 				},
 				"capitol" :
 				{
@@ -183,10 +159,7 @@
 					"cost" :
 					{
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : ["castle"],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" :
 				{
@@ -196,9 +169,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"marketModes" : ["resource-resource", "resource-player"],
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
@@ -210,9 +181,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "wood": 1, "ore" : 1},
-					"requires" : ["marketplace"],
-					"id" : 15
+					"produce": { "wood": 1, "ore" : 1}
 				},
 				"blacksmith" :
 				{
@@ -224,8 +193,7 @@
 						"ore"  : 5,
 						"gold" : 600
 					},
-					"warMachine": "firstAidTent",
-					"id" : 16
+					"warMachine": "firstAidTent"
 				},
 				"horde1" :
 				{
@@ -236,8 +204,7 @@
 						"gold" : 1000
 					},
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ],
-					"upgrades" : "dwellingLvl2",
-					"id" : 18,
+					"upgrades" : "dwellingLvl2"
 					},
 					
 				"horde1Upgr" :
@@ -249,16 +216,12 @@
 						"gold"  : 1000
 					},
 					"requires" : [ "horde1" ],
-					"upgrades" : "dwellingUpLvl2",
-					"id" : 19,
-					"mode" : "auto"
+					"upgrades" : "dwellingUpLvl2"
 				},
 				"ship" :
 				{
 					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-
-					"id" : 20
+					"description" : "The Shipyard allows you to purchase ships."
 				},
 				"special1" :
 				{
@@ -296,9 +259,6 @@
 				{
 					"description" : "The presence of the Ever-growing Bean increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day and grants additional attack to all Greenhouse vegetables.",
 					"name" : "Ever-growing Bean",
-					"id" : 26,
-					"mode" : "grail",
-					"produce": { "gold": 5000 },
 					"bonuses": [ 
 						{ 
 							"type": "ADDITIONAL_ATTACK", 
@@ -306,7 +266,7 @@
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [ {
 								"type" : "CREATURE_FACTION_LIMITER",
-								"parameters" : ["glasshouse"]
+								"faction" : "glasshouse"
 							} ]
 						}
 					]
@@ -332,8 +292,7 @@
 						"wood"    : 4,
 						"ore"     : 6,
 						"gold" : 1000
-					},
-					"id" : 31
+					}
 				},
 				"dwellingLvl3" :
 				{
@@ -345,9 +304,8 @@
 						"gems"    : 2,
 						"crystal" : 2,
 						"gold" : 2000
-					},
+					}
 					//"requires" : ["special2"],
-					"id" : 32
 				},
 				"dwellingLvl4" :
 				{
@@ -358,8 +316,7 @@
 						"ore"     : 10,
 						"gold" : 3000,
 					},
-					"requires" : ["dwellingLvl3"],
-					"id" : 33
+					"requires" : ["dwellingLvl3"]
 				},
 				"dwellingLvl5" :
 				{
@@ -372,8 +329,7 @@
 						"sulfur"  : 4,
 						"gold" : 3000
 					},
-					"requires" : ["mageGuild1"],
-					"id" : 34
+					"requires" : ["mageGuild1"]
 				},
 				"dwellingLvl6" :
 				{
@@ -386,8 +342,7 @@
 						"crystal" : 10,
 						"gold" : 5000
 					},
-					"requires" : ["dwellingLvl5"],
-					"id" : 35
+					"requires" : ["dwellingLvl5"]
 				},
 				"dwellingLvl7" :
 				{
@@ -403,8 +358,7 @@
 						"gems"    : 8,
 						"gold" : 10000
 					},
-					"requires" : ["allOf",["leg1A"],["dwellingLvl4"]],
-					"id" : 36
+					"requires" : ["allOf",["leg1A"],["dwellingLvl4"]]
 				},
 				"leg1B" :
 				{
@@ -428,7 +382,6 @@
 						"crystal" : 2,
 						"gold" : 1000,
 					},
-					"id" : 38,
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
@@ -441,7 +394,6 @@
 						"ore" : 10,
 					},
 					"requires" : ["leg1B"],
-					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" :
@@ -453,7 +405,6 @@
 						"gold" : 3000,
 					},
 					"requires" : ["special1"],
-					"id" : 40,
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
@@ -466,7 +417,6 @@
 						"gold" : 3000
 					},
 					"requires" : [ "allOf",["mageGuild2"], ["special1"]],
-					"id" : 41,
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" :
@@ -481,7 +431,6 @@
 						"crystal" : 2,
 						"gems" : 6
 					},
-					"id" : 42,
 					"requires" : ["mageGuild2"],
 					"upgrades" : "dwellingLvl6"
 				},
@@ -497,7 +446,6 @@
 						"gems" :     10,
 						"gold" :  10000,
 					},
-					"id" : 43,
 					"requires" : ["allOf",["leg1B"],["dwellingUpLvl4"]],
 					"upgrades" : "dwellingLvl7",
 				}

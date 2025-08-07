@@ -37,26 +37,11 @@
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Diplomacy",
 				"name" : "Diplomacy",
-				"description" : "{Diplomacy}\r\n\r\nReceives a 5% per level bonus to Diplomacy skill percentage."
+				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage."
 			}
 		},
 		"specialty" : {
-			"bonuses" : {
-				"diplomat" : {
-					"type" : "WANDERING_CREATURES_JOIN_BONUS",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL"
-				},
-				"surrendercost" : {
-					"type" : "SURRENDER_DISCOUNT",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"val" : 5,
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "diplomacy" 
 		}
 	}
 }

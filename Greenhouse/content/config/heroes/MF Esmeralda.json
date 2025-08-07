@@ -37,20 +37,11 @@
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery",
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage."
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage."
 			}
 		},
 		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"subtype" : "spellSchool.any",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"val" : 5,
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "sorcery" 
 		}
 	}
 }

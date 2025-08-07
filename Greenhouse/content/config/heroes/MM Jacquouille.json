@@ -37,14 +37,14 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Lightning Bolt",
 				"name" : "Lightning Bolt",
-				"description" : "{Lightning Bolt}\r\n\r\nCasts Lightning Bolt with damage increased by 5% for every n hero levels (n - target creature level)."
+				"description" : "Casts Lightning Bolt with damage increased by 5% for every n hero levels (n - target creature level)."
 			}
 		},
 		"spellbook" : [ "lightningBolt" ],
 		"specialty" : {
 			"bonuses" : {
 				"magicArrow" : {
-					"subtype" : "spell.lightningBolt",
+					"subtype" : "lightningBolt",
 					"type" : "SPECIFIC_SPELL_DAMAGE",
 					"val" : 50,
 					"valueType" : "BASE_NUMBER"

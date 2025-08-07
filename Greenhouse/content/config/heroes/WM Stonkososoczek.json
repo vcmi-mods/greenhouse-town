@@ -37,7 +37,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Pumpkins",
 				"name" : "Pumpkins",
-				"description" : "{Pumpkins and Pumpkinheads}\r\n\r\nIncreases Speed of any Pumpkins or Pumpkinheads by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+				"description" : "Increases Speed of any Pumpkins or Pumpkinheads by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
 			}
 		},
 		"specialty" : {

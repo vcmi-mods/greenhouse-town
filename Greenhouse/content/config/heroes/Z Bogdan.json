@@ -36,7 +36,7 @@
 			"specialty" :
 				{
 				"tooltip" : "Machine mastery: Ballist",
-				"description" : "{Ballista}\n\nBallista in his army is much powerful",
+				"description" : "Ballista in his army is much powerful",
 				"name" : "Ballista"
 			}
 		},

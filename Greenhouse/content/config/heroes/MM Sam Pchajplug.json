@@ -38,14 +38,14 @@
 			"specialty" : {
 				"tooltip" : "+350 Gold each day",
 				"name" : "+350 Gold",
-				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+				"description" : "Increases kingdom's income by 350 gold per day."
 			}
 		},
 		"spellbook" : [],
 		"specialty": {
 			"bonuses" : {
 				"estates" : {
-					"subtype" : "resource.gold", 
+					"subtype" : "gold", 
 					"type" : "GENERATE_RESOURCE", 
 					"val" : 350
 				}

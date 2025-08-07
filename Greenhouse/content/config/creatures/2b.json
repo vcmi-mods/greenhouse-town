@@ -30,11 +30,12 @@
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"self_morale" :
-			{
+			"selfmorale" : {
 				"type" : "MORALE",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive morale}\nCossack Cucumber's morale cannot be decreased below +1",
+				"icon" : "icons/e_minot.png"
 			}
 		},
 		"stackExperience" : [
@@ -42,7 +43,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
@@ -50,7 +51,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
