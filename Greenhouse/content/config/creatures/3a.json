@@ -1,104 +1,132 @@
 {
-	"3a":
-	{
+	"3a" : {
 		"level" : 3,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 10,
 		"defense" : 10,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"hitPoints" : 21,
 		"speed" : 5,
 		"growth" : 6,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 180
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"3b"
 		],
-		"abilities" :
-		{
-			"additional_retaliations" :
-			{
-				"type": "ADDITIONAL_RETALIATION",
+		"abilities" : {
+			"additional_retaliations" : {
+				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 12
 		},
 		"aiValue" : 200,
 		"fightValue" : 200,
-		
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "unit-battle/3a.def",
-			"map"       : "unit-map/3a.def",
+			"map" : "unit-map/3a.def",
 			"iconSmall" : "unit-portrait/3a S.bmp",
 			"iconLarge" : "unit-portrait/3a.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S201ATTK.wav",
 			"defend" : "vori/S201DFND.wav",
 			"killed" : "vori/S201KILL.wav",
 			"move" : "vori/S201MOVE.wav",
 			"wince" : "vori/S201WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : " Onions",
 			"singular" : "Onion"
 		}

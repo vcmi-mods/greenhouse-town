@@ -1,41 +1,48 @@
 {
-	"kozak" :
-	{
+	"kozak" : {
 		"class" : "farmer",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WM Kozak/spec-small.png",
 			"specialtyLarge" : "heroes/WM Kozak/spec-large.png",
 			"large" : "heroes/WM Kozak/portrait-large.png",
 			"small" : "heroes/WM Kozak/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "2b", "min" :  6, "max" :  9 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 }
+		"army" : [
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "2b",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "expert",
 				"skill" : "offence"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Cossack",
 			"biography" : "The first of Cossack cucumbers.",
-		
+
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Cucumbers",
 				"name" : "Cucumbers",
 				"description" : "Increases Speed of any Cucumbers or Cossack Cucumbers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
 			}
-		},	
+		},
 		"specialty" : {
 			"creature" : "2a"
 		}

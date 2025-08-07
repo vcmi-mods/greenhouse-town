@@ -1,13 +1,11 @@
 {
-	"6a":
-	{
+	"6a" : {
 		"level" : 6,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 14,
 		"defense" : 10,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 15,
 			"min" : 10
 		},
@@ -16,93 +14,134 @@
 		"growth" : 1,
 		"spellPoints" : 10,
 		"shots" : 12,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 700
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"6b"
 		],
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
 		"aiValue" : 1300,
 		"fightValue" : 1300,
-		
+
 		"doubleWide" : true,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/6a.def",
 			"map" : "unit-map/6a.def",
 			"iconSmall" : "unit-portrait/6a S.bmp",
 			"iconLarge" : "unit-portrait/6a.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.5,
 				"idle" : 10,
 				"attack" : 1
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "vori/battle/projectile/SHOT208.DEF",
-			       "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -110,20 +149,31 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S207ATTK.wav",
 			"defend" : "vori/S207DFND.wav",
 			"killed" : "vori/S207KILL.wav",
 			"move" : "vori/S207MOVE.wav",
 			"wince" : "vori/S207WNCE.wav"
 		},
-	
-	"name" :
-		{
+
+		"name" : {
 			"plural" : "Broccoli",
 			"singular" : "Broccoli"
 		}

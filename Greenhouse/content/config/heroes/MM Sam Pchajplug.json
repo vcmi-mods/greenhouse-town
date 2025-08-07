@@ -1,25 +1,33 @@
 {
-	"sam Pchajplug" :
-	{
+	"sam Pchajplug" : {
 		"class" : "gardener",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/MM Sam Pchajplug/spec-small.png",
 			"specialtyLarge" : "heroes/MM Sam Pchajplug/spec-large.png",
 			"large" : "heroes/MM Sam Pchajplug/portrait-large.png",
 			"small" : "heroes/MM Sam Pchajplug/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "estates"
@@ -29,12 +37,11 @@
 				"skill" : "wisdom"
 			}
 		],
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Sam Pchajplug",
 			"biography" : "Work work work.",
-		
+
 			"specialty" : {
 				"tooltip" : "+350 Gold each day",
 				"name" : "+350 Gold",
@@ -42,16 +49,14 @@
 			}
 		},
 		"spellbook" : [],
-		"specialty": {
+		"specialty" : {
 			"bonuses" : {
 				"estates" : {
-					"subtype" : "gold", 
-					"type" : "GENERATE_RESOURCE", 
+					"subtype" : "gold",
+					"type" : "GENERATE_RESOURCE",
 					"val" : 350
 				}
 			}
-		}	
+		}
 	}
 }
-
-

@@ -1,25 +1,33 @@
 {
-	"litte smile" :
-	{
+	"litte smile" : {
 		"class" : "farmer",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WF Litte smile/spec-small.png",
 			"specialtyLarge" : "heroes/WF Litte smile/spec-large.png",
 			"large" : "heroes/WF Litte smile/portrait-large.png",
 			"small" : "heroes/WF Litte smile/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "1a", "min" : 30, "max" : 50 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "artillery"
@@ -29,9 +37,8 @@
 				"skill" : "wisdom"
 			}
 		],
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Litte smile",
 			"biography" : "Sweet little radish.",
 			"specialty" : {
@@ -45,5 +52,3 @@
 		}
 	}
 }
-
-

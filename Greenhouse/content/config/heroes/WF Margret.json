@@ -1,25 +1,33 @@
 {
-	"margret" :
-	{
+	"margret" : {
 		"class" : "farmer",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WF Margret/spec-small.png",
 			"specialtyLarge" : "heroes/WF Margret/spec-large.png",
 			"large" : "heroes/WF Margret/portrait-large.png",
 			"small" : "heroes/WF Margret/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "scouting"
@@ -29,8 +37,7 @@
 				"skill" : "logistics"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Margret",
 			"biography" : "Carrot thief.",
 			"specialty" : {
@@ -40,9 +47,7 @@
 			}
 		},
 		"specialty" : {
-			"secondary" : "logistics" 
+			"secondary" : "logistics"
 		}
 	}
 }
-
-

@@ -1,35 +1,121 @@
 {
-    "basepath" : "frames/",
-	"images" :
-	[
-		{ "frame" : 0, "file" : "mg1"},
-		{ "frame" : 1, "file" : "mg2"},
-		{ "frame" : 2, "file" : "mg3"},
-		{ "frame" : 3, "file" : "mg4"},
-		{ "frame" : 4, "file" : "mg5"},
-		{ "frame" : 7, "file" : "zam1"},
-		{ "frame" : 8, "file" : "zam2"},
-		{ "frame" : 9, "file" : "zam3"},
-		{ "frame" : 10, "file" : "rat1"},
-		{ "frame" : 11, "file" : "rat2"},
-		{ "frame" : 12, "file" : "rat3"},
-		{ "frame" : 13, "file" : "rat4"},
-		{ "frame" : 18, "file" : "mut"},
-		{ "frame" : 19, "file" : "mutupg"},
-		{ "frame" : 26, "file" : "gra"},
-		{ "frame" : 30, "file" : "leg1a"},
-		{ "frame" : 31, "file" : "leg2a"},
-		{ "frame" : 32, "file" : "leg3a"},
-		{ "frame" : 33, "file" : "leg4a"},
-		{ "frame" : 34, "file" : "leg5a"},
-		{ "frame" : 35, "file" : "leg6a"},
-		{ "frame" : 36, "file" : "leg7a"},
-		{ "frame" : 37, "file" : "leg1b"},
-		{ "frame" : 38, "file" : "leg2b"},
-		{ "frame" : 39, "file" : "leg3b"},
-		{ "frame" : 40, "file" : "leg4b"},
-		{ "frame" : 41, "file" : "leg5b"},
-		{ "frame" : 42, "file" : "leg6b"},
-		{ "frame" : 42, "file" : "leg7b"}
+	"basepath" : "frames/",
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "mg1"
+		},
+		{
+			"frame" : 1,
+			"file" : "mg2"
+		},
+		{
+			"frame" : 2,
+			"file" : "mg3"
+		},
+		{
+			"frame" : 3,
+			"file" : "mg4"
+		},
+		{
+			"frame" : 4,
+			"file" : "mg5"
+		},
+		{
+			"frame" : 7,
+			"file" : "zam1"
+		},
+		{
+			"frame" : 8,
+			"file" : "zam2"
+		},
+		{
+			"frame" : 9,
+			"file" : "zam3"
+		},
+		{
+			"frame" : 10,
+			"file" : "rat1"
+		},
+		{
+			"frame" : 11,
+			"file" : "rat2"
+		},
+		{
+			"frame" : 12,
+			"file" : "rat3"
+		},
+		{
+			"frame" : 13,
+			"file" : "rat4"
+		},
+		{
+			"frame" : 18,
+			"file" : "mut"
+		},
+		{
+			"frame" : 19,
+			"file" : "mutupg"
+		},
+		{
+			"frame" : 26,
+			"file" : "gra"
+		},
+		{
+			"frame" : 30,
+			"file" : "leg1a"
+		},
+		{
+			"frame" : 31,
+			"file" : "leg2a"
+		},
+		{
+			"frame" : 32,
+			"file" : "leg3a"
+		},
+		{
+			"frame" : 33,
+			"file" : "leg4a"
+		},
+		{
+			"frame" : 34,
+			"file" : "leg5a"
+		},
+		{
+			"frame" : 35,
+			"file" : "leg6a"
+		},
+		{
+			"frame" : 36,
+			"file" : "leg7a"
+		},
+		{
+			"frame" : 37,
+			"file" : "leg1b"
+		},
+		{
+			"frame" : 38,
+			"file" : "leg2b"
+		},
+		{
+			"frame" : 39,
+			"file" : "leg3b"
+		},
+		{
+			"frame" : 40,
+			"file" : "leg4b"
+		},
+		{
+			"frame" : 41,
+			"file" : "leg5b"
+		},
+		{
+			"frame" : 42,
+			"file" : "leg6b"
+		},
+		{
+			"frame" : 42,
+			"file" : "leg7b"
+		}
 	]
 }

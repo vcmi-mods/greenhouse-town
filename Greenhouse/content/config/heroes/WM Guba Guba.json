@@ -1,25 +1,33 @@
 {
-	"guba guba" :
-	{
+	"guba guba" : {
 		"class" : "farmer",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WM Guba Guba/spec-small.png",
 			"specialtyLarge" : "heroes/WM Guba Guba/spec-large.png",
 			"large" : "heroes/WM Guba Guba/portrait-large.png",
 			"small" : "heroes/WM Guba Guba/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "4a", "min" :  2, "max" :  4 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "4a",
+				"min" : 2,
+				"max" : 4
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -29,8 +37,7 @@
 				"skill" : "leadership"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Guba Guba",
 			"biography" : " Angry mad eggplant.",
 			"specialty" : {

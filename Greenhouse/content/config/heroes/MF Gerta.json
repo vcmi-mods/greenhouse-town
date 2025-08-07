@@ -1,24 +1,32 @@
 {
-	"gerta" :
-	{
+	"gerta" : {
 		"class" : "gardener",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/MF Gerta/spec-small.png",
 			"specialtyLarge" : "heroes/MF Gerta/spec-large.png",
 			"large" : "heroes/MF Gerta/portrait-large.png",
 			"small" : "heroes/MF Gerta/portrait-small.png"
 		},
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "fireMagic"
@@ -28,18 +36,19 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Gerta",
 			"biography" : "Witch.",
-		
+
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Fireball",
 				"name" : "Fireball",
 				"description" : "Casts Firebal with damage increased by 3% for every n hero levels (n - target creature level)."
 			}
 		},
-		"spellbook" : [ "fireball" ],
+		"spellbook" : [
+			"fireball"
+		],
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {
@@ -52,5 +61,3 @@
 		}
 	}
 }
-
-

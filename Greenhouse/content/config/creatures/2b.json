@@ -1,13 +1,11 @@
 {
-	"2b":
-	{
+	"2b" : {
 		"level" : 2,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
@@ -15,19 +13,15 @@
 		"speed" : 7,
 		"growth" : 9,
 		"shots" : 12,
-		"horde" : 5,		
-		"cost" :
-		{
+		"horde" : 5,
+		"cost" : {
 			"gold" : 125
 		},
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"no_melee_penalty":
-			{
+			"no_melee_penalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"selfmorale" : {
@@ -40,72 +34,117 @@
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
 		"aiValue" : 130,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/2b.def",
 			"map" : "unit-map/2b.def",
 			"iconSmall" : "unit-portrait/2b S.bmp",
 			"iconLarge" : "unit-portrait/2b.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "vori/battle/projectile/SHOT198.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -114,11 +153,23 @@
 					"lowerY" : -14
 				},
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S202ATTK.wav",
 			"defend" : "vori/S202DFND.wav",
 			"killed" : "vori/S202KILL.wav",
@@ -126,8 +177,7 @@
 			"wince" : "vori/S202WNCE.wav",
 			"shoot" : "vori/S198SHOT.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Cossack Cucumbers",
 			"singular" : "Cossack Cucumber"
 		}

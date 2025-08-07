@@ -1,110 +1,149 @@
 {
-	"5a":
-	{
+	"5a" : {
 		"level" : 5,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 12,
 		"defense" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 14
 		},
 		"hitPoints" : 45,
 		"speed" : 7,
 		"growth" : 3,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 600
 		},
-		"upgrades" :
-		[
+		"upgrades" : [
 			"5b"
 		],
-		"abilities" :
-		{
-			"canfly" :
-			{
+		"abilities" : {
+			"canfly" : {
 				"type" : "FLYING"
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 8
 		},
 		"aiValue" : 800,
 		"fightValue" : 800,
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "unit-battle/5a.DEF",
 			"map" : "unit-map/5a.def",
 			"iconSmall" : "unit-portrait/5a S.bmp",
 			"iconLarge" : "unit-portrait/5a.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.5,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S207ATTK.wav",
 			"defend" : "vori/S207DFND.wav",
 			"killed" : "vori/S207KILL.wav",
 			"move" : "vori/S207MOVE.wav",
 			"wince" : "vori/S207WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Pumpkins",
 			"singular" : "Pumpkin"
 		}

@@ -1,47 +1,137 @@
 {
-	"glasshouse" :
-	{
+	"glasshouse" : {
 		"name" : "Greenhouse",
-		"creatureBackground" :
-		{
+		"creatureBackground" : {
 			"120px" : "creature-bg-120px",
 			"130px" : "creature-bg-130px"
 		},
-		"nativeTerrain": "dirt",
+		"nativeTerrain" : "dirt",
 		"alignment" : "good",
 		"boat" : "boatCastle",
-		"town" :
-		{
-			"musicTheme" : [ "music/town" ],
-			"townBackground": "background.bmp",
-			"guildWindow": "mageguild",
-			"guildBackground" : "mage",
-			"hallBackground": "window-building",
-			"hallSlots":
-			[
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5"] ],
-				[ ["special2"], [ "special1" ], ["horde1", "horde1Upgr"] ],
-				[ ["leg1A" ,"leg1B"], ["dwellingLvl2","dwellingUpLvl2"], ["dwellingLvl3","dwellingUpLvl3"], ["dwellingLvl4","dwellingUpLvl4" ]],
-				[ [ "dwellingLvl5" , "dwellingUpLvl5" ], [ "dwellingLvl6" , "dwellingUpLvl6" ], [ "dwellingLvl7" , "dwellingUpLvl7" ] ]
+		"town" : {
+			"musicTheme" : [
+				"music/town"
 			],
-			"creatures" :
-			[
-				[ "1a", "1b" ],
-				[ "2a", "2b" ],
-				[ "3a", "3b" ],
-				[ "4a", "4b" ],
-				[ "5a", "5b" ],
-				[ "6a", "6b" ],
-				[ "7a", "7b" ]
+			"townBackground" : "background.bmp",
+			"guildWindow" : "mageguild",
+			"guildBackground" : "mage",
+			"hallBackground" : "window-building",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"special1"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"leg1A",
+						"leg1B"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"creatures" : [
+				[
+					"1a",
+					"1b"
+				],
+				[
+					"2a",
+					"2b"
+				],
+				[
+					"3a",
+					"3b"
+				],
+				[
+					"4a",
+					"4b"
+				],
+				[
+					"5a",
+					"5b"
+				],
+				[
+					"6a",
+					"6b"
+				],
+				[
+					"7a",
+					"7b"
+				]
 			],
 			"moatAbility" : "castleMoat",
-			"horde" : [ 1 ],
+			"horde" : [
+				1
+			],
 			"mageGuild" : 5,
 			"buildingsIcons" : "menu.def",
 			"tavernVideo" : "Tavern",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "town/hall-small.bmp",
@@ -64,62 +154,89 @@
 				}
 			},
 
-			"mapObject" : 
-			{
+			"mapObject" : {
 				"filters" : {
-					"village" : [ "noneOf", [ "capitol" ],["fort"] ],
-					"castle"  : [ "allOf", [ "fort" ], [ "noneOf", [ "capitol" ] ] ],
-					"capitol" : [ "allOf", [ "fort" ],[ "capitol" ] ],
+					"village" : [
+						"noneOf",
+						[
+							"capitol"
+						],
+						[
+							"fort"
+						]
+					],
+					"castle" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"capitol" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"capitol"
+						]
+					]
 				},
-				
-				"templates" : 
-				{
-					"village" : { "animation" : "map/rat" },
-					"castle"  : { "animation" : "map/zam" },
-					"capitol" : { "animation" : "map/cap" }
-					
+
+				"templates" : {
+					"village" : {
+						"animation" : "map/rat"
+					},
+					"castle" : {
+						"animation" : "map/zam"
+					},
+					"capitol" : {
+						"animation" : "map/cap"
+					}
 				}
 			},
-				
 
-			"names" :
-			[
+			"names" : [
 				"Upper Pumpkins",
 				"Bottom Pumpkins",
 				"Sour",
 				"Ziemniakowice",
 				"Black field",
 				"Sauerkraut Hill",
-				"Potato York",//"Pyrkowy York"
+				"Potato York", //"Pyrkowy York"
 				"Pea valley",
 				"Broccoli woods"
 			],
 
 			"defaultTavern" : 5,
-			
-			"tavern" :
-			{
-				"knight"       : 4,
-				"cleric"       : 4,
-				"ranger"       : 0,
-				"druid"        : 0,
-				"alchemist"    : 4,
-				"wizard"       : 4,
-				"demoniac"     : 0,
-				"heretic"      : 0,
-				"deathknight"  : 4,
-				"necromancer"  : 4,
-				"warlock"      : 4,
-				"overlord"     : 4,
-				"barbarian"    : 4,
-				"battlemage"   : 4,
-				"beastmaster"  : 4,
-				"witch"        : 4,
+
+			"tavern" : {
+				"knight" : 4,
+				"cleric" : 4,
+				"ranger" : 0,
+				"druid" : 0,
+				"alchemist" : 4,
+				"wizard" : 4,
+				"demoniac" : 0,
+				"heretic" : 0,
+				"deathknight" : 4,
+				"necromancer" : 4,
+				"warlock" : 4,
+				"overlord" : 4,
+				"barbarian" : 4,
+				"battlemage" : 4,
+				"beastmaster" : 4,
+				"witch" : 4,
 				"planeswalker" : 4,
 				"elementalist" : 4,
-				"gardener"     : 6,
-                "farmer"       : 6
+				"gardener" : 6,
+				"farmer" : 6
 			}
 		}
-	}	
+	}
 }

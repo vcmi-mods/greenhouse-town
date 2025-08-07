@@ -1,25 +1,33 @@
 {
-	"beata" :
-	{
+	"beata" : {
 		"class" : "farmer",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WF Beata/spec-small.png",
 			"specialtyLarge" : "heroes/WF Beata/spec-large.png",
 			"large" : "heroes/WF Beata/portrait-large.png",
 			"small" : "heroes/WF Beata/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "armorer"
@@ -29,11 +37,10 @@
 				"skill" : "resistance"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Beata",
 			"biography" : "Panzer beetroot lady.",
-		
+
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer",
@@ -41,9 +48,7 @@
 			}
 		},
 		"specialty" : {
-			"secondary" : "armorer" 
+			"secondary" : "armorer"
 		}
 	}
 }
-
-

@@ -1,103 +1,145 @@
 {
-	"1b":
-	{
+	"1b" : {
 		"level" : 1,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 6,
 		"defense" : 3,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 2
 		},
 		"hitPoints" : 4,
 		"speed" : 6,
 		"growth" : 30,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 25
 		},
-//		"abilities" :
-//		{
-//		},
+		//		"abilities" :
+		//		{
+		//		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 80,
 			"min" : 40
 		},
 		"aiValue" : 80,
 		"fightValue" : 80,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/1b.def",
 			"map" : "unit-map/1b.def",
 			"iconSmall" : "unit-portrait/1b S.bmp",
 			"iconLarge" : "unit-portrait/1b.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.95,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S200ATTK.wav",
 			"defend" : "vori/S200DFND.wav",
 			"killed" : "vori/S200KILL.wav",
 			"move" : "vori/S200MOVE.wav",
 			"wince" : "vori/S200WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Tyrolean peas",
 			"singular" : "Tyrolean pea"
 		}

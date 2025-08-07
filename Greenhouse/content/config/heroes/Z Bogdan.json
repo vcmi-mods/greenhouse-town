@@ -1,25 +1,33 @@
 {
-	"bogdan" :
-	{
+	"bogdan" : {
 		"class" : "farmer",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/Z Bogdan/spec-small.png",
 			"specialtyLarge" : "heroes/Z Bogdan/spec-large.png",
 			"large" : "heroes/Z Bogdan/portrait-large.png",
 			"small" : "heroes/Z Bogdan/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "ballista", "max" : 1, "min" : 1 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "artillery"
@@ -29,12 +37,10 @@
 				"skill" : "estates"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sir Bogdan",
 			"biography" : "Sir Bogdan był niegdyś generałem w Erathiańskiej armii, ale zdezerterował i został ogrodnikiem i nauczył swoich nowych podopiecznych sztuki wojennej. Teraz sieje spustoszenie w wśród Niewarzyw.",
-			"specialty" :
-				{
+			"specialty" : {
 				"tooltip" : "Machine mastery: Ballist",
 				"description" : "Ballista in his army is much powerful",
 				"name" : "Ballista"
@@ -45,5 +51,3 @@
 		}
 	}
 }
-
-

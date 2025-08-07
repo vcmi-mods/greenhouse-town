@@ -1,64 +1,305 @@
 {
-	"glasshouse" :
-	{
-		"town" :
-		{
-			"structures" :
-			{
-				"marketplace" :    {"animation" : "town-screen/mar.def",   "x" : 241, "y" : 281,  "z" : 21, "border" : "town-border/marb.bmp",  "area" : "town-area/mara.bmp"  },
-				"resourceSilo" :   {"animation" : "town-screen/sil.def",   "x" : 511, "y" : 270,  "z" : 20, "border" : "town-border/silb.bmp",  "area" : "town-area/sila.bmp"  },
-				
-				"tavern" :         {"animation" : "town-screen/taw.def",   "x" : 151, "y" : 276, "z" : 18, "border" : "town-border/tawb.bmp",  "area" : "town-area/tawa.bmp"    },
-				"blacksmith" :     {"animation" : "town-screen/kuz.def",   "x" : 650, "y" : 278,  "z" : 3,  "border" : "town-border/kuzb.bmp",  "area" : "town-area/kuza.bmp"  },
-				
-				"special1" :       {"animation" : "town-screen/sp1.def",   "x" : 456, "y" : 115,  "z" : 7,  "border" : "town-border/sp1b.bmp",  "area" : "town-area/sp1a.bmp"  },
-				"special2" :       {"animation" : "town-screen/sp2.def",   "x" : 468, "y" : 213,  "z" : 6,  "border" : "town-border/sp2b.bmp",  "area" : "town-area/sp2a.bmp" },
-				
-				"mageGuild1" :     {"animation" : "town-screen/mag1.def", "x" : 657, "y" : 38, "z" : 4,  "border" : "town-border/mag1b.bmp", "area" : "town-area/mag1a.bmp" },
-				"mageGuild2" :     {"animation" : "town-screen/mag2.def", "x" : 657, "y" : 38, "z" : 4,  "border" : "town-border/mag2b.bmp", "area" : "town-area/mag2a.bmp" },
-				"mageGuild3" :     {"animation" : "town-screen/mag3.def", "x" : 657, "y" : 38, "z" : 4,  "border" : "town-border/mag3b.bmp", "area" : "town-area/mag3a.bmp" },
-				"mageGuild4" :     {"animation" : "town-screen/mag4.def", "x" : 657, "y" : 38, "z" : 4,  "border" : "town-border/mag4b.bmp", "area" : "town-area/mag4a.bmp" },
-				"mageGuild5" :     {"animation" : "town-screen/mag5.def", "x" : 657, "y" : 38, "z" : 4,  "border" : "town-border/mag5b.bmp", "area" : "town-area/mag5a.bmp" },
-				
-				"fort" :           {"animation" : "town-screen/zam1.def", "x" : 18, "y" : 135,  "z" : 6,  "border" : "town-border/zam1b.bmp", "area" : "town-area/zam1a.bmp" },
-				"citadel" :        {"animation" : "town-screen/zam2.def", "x" : 18, "y" : 135,  "z" : 6,  "border" : "town-border/zam2b.bmp", "area" : "town-area/zam2a.bmp" },
-				"castle" :         {"animation" : "town-screen/zam3.def", "x" : 18, "y" : 135,  "z" : 6,  "border" : "town-border/zam3b.bmp", "area" : "town-area/zam3a.bmp" },
-				
-				"villageHall" :    {"animation" : "town-screen/rat1.def", "x" : 150, "y" : 127,   "z" : 20, "border" : "town-border/rat1b.bmp", "area" : "town-area/rat1a.bmp" },
-				"townHall" :       {"animation" : "town-screen/rat2.def", "x" : 150, "y" : 127,   "z" : 20, "border" : "town-border/rat2b.bmp", "area" : "town-area/rat2a.bmp" },
-				"cityHall" :       {"animation" : "town-screen/rat3.def", "x" : 150, "y" : 127,   "z" : 20, "border" : "town-border/rat3b.bmp", "area" : "town-area/rat3a.bmp" },
-				"capitol" :        {"animation" : "town-screen/rat4.def", "x" : 150, "y" : 127,   "z" : 20, "border" : "town-border/rat4b.bmp", "area" : "town-area/rat4a.bmp" },
-				
-				
-				
-				
-				"horde1" :         {"animation" : "town-screen/mut.def", "x" : 0, "y" : 255, "z" : 12, "border" : "town-border/mut1b.bmp", "area" : "town-area/mut1a.bmp", "hidden" : true },
-				"horde1Upgr" :     {"animation" : "town-screen/mutupg.def", "x" : 0, "y" : 225, "z" : 12, "border" : "town-border/mut2b.bmp", "area" : "town-area/mut2a.bmp", "hidden" : true, "builds" : "horde1" },
-				
-				
-				"grail" :          {"animation" : "town-screen/gra.def", "x" : 303, "y" : 0,  "z" : 2,  "border" : "town-border/grab.bmp", "area" : "town-area/graa.bmp" },
-				
-				"leg1A" : {"animation" : "town-screen/leg1a.def", "x" : 304, "y" : 156 , "z" :2 , "border" : "town-border/leg1ab.bmp", "area" : "town-area/leg1aa.bmp" },
-				"leg1B" : {"animation" : "town-screen/leg1b.def", "x" : 304, "y" : 156, "z" :2 , "border" : "town-border/leg1bb.bmp", "area" : "town-area/leg1ba.bmp" },
-				
-				"dwellingLvl2" :   {"animation" : "town-screen/leg2a.def", "x" : 3, "y" : 239, "z" : 4,  "border" : "town-border/leg2ab.bmp", "area" : "town-area/leg2aa.bmp" },
-				"dwellingUpLvl2" : {"animation" : "town-screen/leg2b.def", "x" : 3, "y" : 239, "z" : 4,  "border" : "town-border/leg2bb.bmp", "area" : "town-area/leg2ba.bmp" },
-				
-				"dwellingLvl3" :   {"animation" : "town-screen/leg3a.def", "x" : 379,"y" : 148, "z" : 15, "border" : "town-border/leg3ab.bmp", "area" : "town-area/leg3aa.bmp" },
-				"dwellingUpLvl3" : {"animation" : "town-screen/leg3b.def", "x" : 379,"y" : 148, "z" : 15, "border" : "town-border/leg3bb.bmp", "area" : "town-area/leg3ba.bmp" },
-				
-				"dwellingLvl4" :   {"animation" : "town-screen/leg4a.def", "x" : 554, "y" : 140, "z" : 8, "border" : "town-border/leg4ab.bmp", "area" : "town-area/leg4aa.bmp" },
-				"dwellingUpLvl4" : {"animation" : "town-screen/leg4b.def", "x" : 554,"y" : 140 ,"z" : 8,  "border" : "town-border/leg4bb.bmp", "area" : "town-area/leg4ba.bmp" },
-				
-				"dwellingLvl5" :   {"animation" : "town-screen/leg5a.def", "x" : 555, "y" : 224, "z" : 12, "border" : "town-border/leg5ab.bmp", "area" : "town-area/leg5aa.bmp" },
-				"dwellingUpLvl5" : {"animation" : "town-screen/leg5b.def", "x" : 555, "y" : 224, "z" : 12, "border" : "town-border/leg5bb.bmp", "area" : "town-area/leg5ba.bmp" },
-				
-				"dwellingLvl6" :   {"animation" : "town-screen/leg6a.def", "x" : 596, "y" : 46, "z" : 16, "border" : "town-border/leg6ab.bmp", "area" : "town-area/leg6aa.bmp" },
-				"dwellingUpLvl6" : {"animation" : "town-screen/leg6b.def", "x" : 596, "y" : 46, "z" : 16, "border" : "town-border/leg6bb.bmp", "area" : "town-area/leg6ba.bmp" },
-				
-				"dwellingLvl7" :   {"animation" : "town-screen/leg7a.def", "x" : 671, "y" : 120, "z" : 14, "border" : "town-border/leg7ab.bmp", "area" : "town-area/leg7aa.bmp" },
-				"dwellingUpLvl7" : { "animation" :"town-screen/leg7b.def", "x" : 671, "y" : 120, "z" : 14, "border" : "town-border/leg7bb.bmp", "area" : "town-area/leg7ba.bmp" },
-				
+	"glasshouse" : {
+		"town" : {
+			"structures" : {
+				"marketplace" : {
+					"animation" : "town-screen/mar.def",
+					"x" : 241,
+					"y" : 281,
+					"z" : 21,
+					"border" : "town-border/marb.bmp",
+					"area" : "town-area/mara.bmp"
+				},
+				"resourceSilo" : {
+					"animation" : "town-screen/sil.def",
+					"x" : 511,
+					"y" : 270,
+					"z" : 20,
+					"border" : "town-border/silb.bmp",
+					"area" : "town-area/sila.bmp"
+				},
+
+				"tavern" : {
+					"animation" : "town-screen/taw.def",
+					"x" : 151,
+					"y" : 276,
+					"z" : 18,
+					"border" : "town-border/tawb.bmp",
+					"area" : "town-area/tawa.bmp"
+				},
+				"blacksmith" : {
+					"animation" : "town-screen/kuz.def",
+					"x" : 650,
+					"y" : 278,
+					"z" : 3,
+					"border" : "town-border/kuzb.bmp",
+					"area" : "town-area/kuza.bmp"
+				},
+
+				"special1" : {
+					"animation" : "town-screen/sp1.def",
+					"x" : 456,
+					"y" : 115,
+					"z" : 7,
+					"border" : "town-border/sp1b.bmp",
+					"area" : "town-area/sp1a.bmp"
+				},
+				"special2" : {
+					"animation" : "town-screen/sp2.def",
+					"x" : 468,
+					"y" : 213,
+					"z" : 6,
+					"border" : "town-border/sp2b.bmp",
+					"area" : "town-area/sp2a.bmp"
+				},
+
+				"mageGuild1" : {
+					"animation" : "town-screen/mag1.def",
+					"x" : 657,
+					"y" : 38,
+					"z" : 4,
+					"border" : "town-border/mag1b.bmp",
+					"area" : "town-area/mag1a.bmp"
+				},
+				"mageGuild2" : {
+					"animation" : "town-screen/mag2.def",
+					"x" : 657,
+					"y" : 38,
+					"z" : 4,
+					"border" : "town-border/mag2b.bmp",
+					"area" : "town-area/mag2a.bmp"
+				},
+				"mageGuild3" : {
+					"animation" : "town-screen/mag3.def",
+					"x" : 657,
+					"y" : 38,
+					"z" : 4,
+					"border" : "town-border/mag3b.bmp",
+					"area" : "town-area/mag3a.bmp"
+				},
+				"mageGuild4" : {
+					"animation" : "town-screen/mag4.def",
+					"x" : 657,
+					"y" : 38,
+					"z" : 4,
+					"border" : "town-border/mag4b.bmp",
+					"area" : "town-area/mag4a.bmp"
+				},
+				"mageGuild5" : {
+					"animation" : "town-screen/mag5.def",
+					"x" : 657,
+					"y" : 38,
+					"z" : 4,
+					"border" : "town-border/mag5b.bmp",
+					"area" : "town-area/mag5a.bmp"
+				},
+
+				"fort" : {
+					"animation" : "town-screen/zam1.def",
+					"x" : 18,
+					"y" : 135,
+					"z" : 6,
+					"border" : "town-border/zam1b.bmp",
+					"area" : "town-area/zam1a.bmp"
+				},
+				"citadel" : {
+					"animation" : "town-screen/zam2.def",
+					"x" : 18,
+					"y" : 135,
+					"z" : 6,
+					"border" : "town-border/zam2b.bmp",
+					"area" : "town-area/zam2a.bmp"
+				},
+				"castle" : {
+					"animation" : "town-screen/zam3.def",
+					"x" : 18,
+					"y" : 135,
+					"z" : 6,
+					"border" : "town-border/zam3b.bmp",
+					"area" : "town-area/zam3a.bmp"
+				},
+
+				"villageHall" : {
+					"animation" : "town-screen/rat1.def",
+					"x" : 150,
+					"y" : 127,
+					"z" : 20,
+					"border" : "town-border/rat1b.bmp",
+					"area" : "town-area/rat1a.bmp"
+				},
+				"townHall" : {
+					"animation" : "town-screen/rat2.def",
+					"x" : 150,
+					"y" : 127,
+					"z" : 20,
+					"border" : "town-border/rat2b.bmp",
+					"area" : "town-area/rat2a.bmp"
+				},
+				"cityHall" : {
+					"animation" : "town-screen/rat3.def",
+					"x" : 150,
+					"y" : 127,
+					"z" : 20,
+					"border" : "town-border/rat3b.bmp",
+					"area" : "town-area/rat3a.bmp"
+				},
+				"capitol" : {
+					"animation" : "town-screen/rat4.def",
+					"x" : 150,
+					"y" : 127,
+					"z" : 20,
+					"border" : "town-border/rat4b.bmp",
+					"area" : "town-area/rat4a.bmp"
+				},
+
+				"horde1" : {
+					"animation" : "town-screen/mut.def",
+					"x" : 0,
+					"y" : 255,
+					"z" : 12,
+					"border" : "town-border/mut1b.bmp",
+					"area" : "town-area/mut1a.bmp",
+					"hidden" : true
+				},
+				"horde1Upgr" : {
+					"animation" : "town-screen/mutupg.def",
+					"x" : 0,
+					"y" : 225,
+					"z" : 12,
+					"border" : "town-border/mut2b.bmp",
+					"area" : "town-area/mut2a.bmp",
+					"hidden" : true,
+					"builds" : "horde1"
+				},
+
+				"grail" : {
+					"animation" : "town-screen/gra.def",
+					"x" : 303,
+					"y" : 0,
+					"z" : 2,
+					"border" : "town-border/grab.bmp",
+					"area" : "town-area/graa.bmp"
+				},
+
+				"leg1A" : {
+					"animation" : "town-screen/leg1a.def",
+					"x" : 304,
+					"y" : 156,
+					"z" : 2,
+					"border" : "town-border/leg1ab.bmp",
+					"area" : "town-area/leg1aa.bmp"
+				},
+				"leg1B" : {
+					"animation" : "town-screen/leg1b.def",
+					"x" : 304,
+					"y" : 156,
+					"z" : 2,
+					"border" : "town-border/leg1bb.bmp",
+					"area" : "town-area/leg1ba.bmp"
+				},
+
+				"dwellingLvl2" : {
+					"animation" : "town-screen/leg2a.def",
+					"x" : 3,
+					"y" : 239,
+					"z" : 4,
+					"border" : "town-border/leg2ab.bmp",
+					"area" : "town-area/leg2aa.bmp"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "town-screen/leg2b.def",
+					"x" : 3,
+					"y" : 239,
+					"z" : 4,
+					"border" : "town-border/leg2bb.bmp",
+					"area" : "town-area/leg2ba.bmp"
+				},
+
+				"dwellingLvl3" : {
+					"animation" : "town-screen/leg3a.def",
+					"x" : 379,
+					"y" : 148,
+					"z" : 15,
+					"border" : "town-border/leg3ab.bmp",
+					"area" : "town-area/leg3aa.bmp"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "town-screen/leg3b.def",
+					"x" : 379,
+					"y" : 148,
+					"z" : 15,
+					"border" : "town-border/leg3bb.bmp",
+					"area" : "town-area/leg3ba.bmp"
+				},
+
+				"dwellingLvl4" : {
+					"animation" : "town-screen/leg4a.def",
+					"x" : 554,
+					"y" : 140,
+					"z" : 8,
+					"border" : "town-border/leg4ab.bmp",
+					"area" : "town-area/leg4aa.bmp"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "town-screen/leg4b.def",
+					"x" : 554,
+					"y" : 140,
+					"z" : 8,
+					"border" : "town-border/leg4bb.bmp",
+					"area" : "town-area/leg4ba.bmp"
+				},
+
+				"dwellingLvl5" : {
+					"animation" : "town-screen/leg5a.def",
+					"x" : 555,
+					"y" : 224,
+					"z" : 12,
+					"border" : "town-border/leg5ab.bmp",
+					"area" : "town-area/leg5aa.bmp"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "town-screen/leg5b.def",
+					"x" : 555,
+					"y" : 224,
+					"z" : 12,
+					"border" : "town-border/leg5bb.bmp",
+					"area" : "town-area/leg5ba.bmp"
+				},
+
+				"dwellingLvl6" : {
+					"animation" : "town-screen/leg6a.def",
+					"x" : 596,
+					"y" : 46,
+					"z" : 16,
+					"border" : "town-border/leg6ab.bmp",
+					"area" : "town-area/leg6aa.bmp"
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "town-screen/leg6b.def",
+					"x" : 596,
+					"y" : 46,
+					"z" : 16,
+					"border" : "town-border/leg6bb.bmp",
+					"area" : "town-area/leg6ba.bmp"
+				},
+
+				"dwellingLvl7" : {
+					"animation" : "town-screen/leg7a.def",
+					"x" : 671,
+					"y" : 120,
+					"z" : 14,
+					"border" : "town-border/leg7ab.bmp",
+					"area" : "town-area/leg7aa.bmp"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "town-screen/leg7b.def",
+					"x" : 671,
+					"y" : 120,
+					"z" : 14,
+					"border" : "town-border/leg7bb.bmp",
+					"area" : "town-area/leg7ba.bmp"
+				}
+
 				//nieużywane
 				//"ship" :           {"animation" : "town-screen/mut.def", "x" : 0,   "y" : 0,   "z" : 0,  "border" : "vori/town-screen/buildings-border/TOhfboat.bmp", "area" : "vori/town-screen/buildings-area/TZhfboat.bmp", "hidden" : true },
 				//"shipyard" :       {  "animation" : "vori/town-screen/buildings/TBhfdock.def", "x" : 0,   "y" : 0,   "z" : 0,  "border" : "vori/town-screen/buildings-border/TOhfdock.bmp", "area" : "vori/town-screen/buildings-area/TZhfdock.bmp" },
@@ -66,4 +307,3 @@
 		}
 	}
 }
-

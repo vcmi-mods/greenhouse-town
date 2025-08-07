@@ -1,25 +1,33 @@
 {
-	"zozia" :
-	{
+	"zozia" : {
 		"class" : "gardener",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/MF Zozia/spec-small.png",
 			"specialtyLarge" : "heroes/MF Zozia/spec-large.png",
 			"large" : "heroes/MF Zozia/portrait-large.png",
 			"small" : "heroes/MF Zozia/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "waterMagic"
@@ -29,18 +37,19 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Zuzia",
 			"biography" : "Sweet litte pea.",
-		
+
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Mirth",
 				"name" : "Mirth",
 				"description" : "Casts Mirth with double duration."
 			}
 		},
-		"spellbook" : [ "mirth" ],
+		"spellbook" : [
+			"mirth"
+		],
 		"specialty" : {
 			"bonuses" : {
 				"mirth" : {
@@ -53,5 +62,3 @@
 		}
 	}
 }
-
-

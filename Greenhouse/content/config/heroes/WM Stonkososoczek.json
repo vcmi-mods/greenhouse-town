@@ -1,25 +1,33 @@
 {
-	"stonkososoczek" :
-	{
+	"stonkososoczek" : {
 		"class" : "farmer",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WM Stonkososoczek/spec-small.png",
 			"specialtyLarge" : "heroes/WM Stonkososoczek/spec-large.png",
 			"large" : "heroes/WM Stonkososoczek/portrait-large.png",
 			"small" : "heroes/WM Stonkososoczek/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "5a", "min" :  1, "max" :  2 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "5a",
+				"min" : 1,
+				"max" : 2
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "scouting"
@@ -29,11 +37,10 @@
 				"skill" : "pathfinding"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "DragonJuice",
 			"biography" : " He hates dragons.",
-		
+
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Pumpkins",
 				"name" : "Pumpkins",
@@ -45,5 +52,3 @@
 		}
 	}
 }
-
-

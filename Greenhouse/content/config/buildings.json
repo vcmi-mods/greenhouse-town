@@ -1,426 +1,408 @@
 {
-	"glasshouse" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"glasshouse" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
-						"wood"    : 5,
-						"ore"     : 5,
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
-						"wood"    : 5,
-						"ore"     : 5,
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
 						"mercury" : 2,
-						"sulfur"  : 2,
+						"sulfur" : 2,
 						"crystal" : 2,
-						"gems"    : 2,
+						"gems" : 2,
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
-						"wood"    : 5,
-						"ore"     : 5,
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
 						"mercury" : 6,
-						"sulfur"  : 6,
+						"sulfur" : 6,
 						"crystal" : 6,
-						"gems"    : 6,
+						"gems" : 6,
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
-						"wood"    : 5,
-						"ore"     : 5,
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
 						"mercury" : 8,
-						"sulfur"  : 8,
+						"sulfur" : 8,
 						"crystal" : 8,
-						"gems"    : 8,
+						"gems" : 8,
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
-						"wood"    : 5,
-						"ore"     : 5,
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
 						"mercury" : 10,
-						"sulfur"  : 10,
+						"sulfur" : 10,
 						"crystal" : 10,
-						"gems"    : 10,
+						"gems" : 10,
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 500
 					}
 				},
-				"shipyard" :
-				{
+				"shipyard" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					}
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 ore and wood each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "wood": 1, "ore" : 1}
+					"produce" : {
+						"wood" : 1,
+						"ore" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with First Aid Tent.",
 					"name" : "Blacksmith",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
-						"ore"  : 5,
+						"ore" : 5,
 						"gold" : 600
 					},
-					"warMachine": "firstAidTent"
+					"warMachine" : "firstAidTent"
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "The Ensilage increases Cucumbers production by 5 per week.",
 					"name" : "Ensilage",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl2"
+						]
+					],
 					"upgrades" : "dwellingLvl2"
-					},
-					
-				"horde1Upgr" :
-				{
+				},
+
+				"horde1Upgr" : {
 					"description" : "The Ensilage increases Cossack Cucumbers production by 5 per week.",
 					"name" : "Ensilage",
-					"cost" :
-					{
-						"gold"  : 1000
+					"cost" : {
+						"gold" : 1000
 					},
-					"requires" : [ "horde1" ],
+					"requires" : [
+						"horde1"
+					],
 					"upgrades" : "dwellingUpLvl2"
 				},
-				"ship" :
-				{
+				"ship" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships."
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "Composters allows a visiting hero to sell creatures for resources.",
-//					"description" : "Composters allow you to sacrifice a part of resources for increase the next week growth of creatures in the city (not working yet).",
-					"name": "Composters",
-					"cost" : { "gold" : 1000 },
-//					"cost" :
-//					{
-//						"wood"    : 5,
-//						"ore"     : 5,
-//						"mercury" : 2,
-//						"sulfur"  : 2,
-//						"gold" : 2000
-//					},					
-					"marketModes" : ["creature-resource"]
+					//					"description" : "Composters allow you to sacrifice a part of resources for increase the next week growth of creatures in the city (not working yet).",
+					"name" : "Composters",
+					"cost" : {
+						"gold" : 1000
+					},
+					//					"cost" :
+					//					{
+					//						"wood"    : 5,
+					//						"ore"     : 5,
+					//						"mercury" : 2,
+					//						"sulfur"  : 2,
+					//						"gold" : 2000
+					//					},
+					"marketModes" : [
+						"creature-resource"
+					]
 				},
-				"special2" :
-				{
+				"special2" : {
 					"description" : "Enables player to recruit once per week random creatures from flagged dwellings.",
-//					"description" : "Allows you to recruit army of random vegetables creatures every week (not working yet).",
+					//					"description" : "Allows you to recruit army of random vegetables creatures every week (not working yet).",
 					"name" : "Greengrocer",
-					"cost" : { "gold" : 2500, "ore" : 5 },
-//					"cost" :
-//					{
-//						"wood"    : 5,
-//						"ore"     : 5,
-//						"mercury" : 3,
-//						"sulfur"  : 3,
-//						"gold" : 7500
-//					},
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					//					"cost" :
+					//					{
+					//						"wood"    : 5,
+					//						"ore"     : 5,
+					//						"mercury" : 3,
+					//						"sulfur"  : 3,
+					//						"gold" : 7500
+					//					},
 					"type" : "portalOfSummoning"
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "The presence of the Ever-growing Bean increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day and grants additional attack to all Greenhouse vegetables.",
 					"name" : "Ever-growing Bean",
-					"bonuses": [ 
-						{ 
-							"type": "ADDITIONAL_ATTACK", 
+					"bonuses" : [
+						{
+							"type" : "ADDITIONAL_ATTACK",
 							"val" : 1,
 							"propagator" : "GLOBAL_EFFECT",
-							"limiters" : [ {
-								"type" : "CREATURE_FACTION_LIMITER",
-								"faction" : "glasshouse"
-							} ]
+							"limiters" : [
+								{
+									"type" : "CREATURE_FACTION_LIMITER",
+									"faction" : "glasshouse"
+								}
+							]
 						}
 					]
 				},
-				"leg1A" :
-				{
+				"leg1A" : {
 					"description" : "The Cultivation of Peas allows you to recruite Peas.",
 					"name" : "Cultivation of Peas",
-					"cost" :
-					{
-						"wood"    : 6,
-						"ore"     : 4,
+					"cost" : {
+						"wood" : 6,
+						"ore" : 4,
 						"gold" : 1000
 					},
 					"id" : 30
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Cultivation of Cucumbers allows you to recruite Cucumbers.",
 					"name" : "Cultivation of Cucumbers",
-					"cost" :
-					{
-						"wood"    : 4,
-						"ore"     : 6,
+					"cost" : {
+						"wood" : 4,
+						"ore" : 6,
 						"gold" : 1000
 					}
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Cultivation of Onions allows you to recruite Onions.",
 					"name" : "Cultivation of Onions",
-					"cost" :
-					{
-						"wood"    : 10,
-						"gems"    : 2,
+					"cost" : {
+						"wood" : 10,
+						"gems" : 2,
 						"crystal" : 2,
 						"gold" : 2000
 					}
 					//"requires" : ["special2"],
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Cultivation of Eggplants allows you to recruite Eggplants.",
 					"name" : "Cultivation of Eggplants",
-					"cost" :
-					{
-						"ore"     : 10,
-						"gold" : 3000,
-					},
-					"requires" : ["dwellingLvl3"]
-				},
-				"dwellingLvl5" :
-				{
-					"description" : "The Cultivation of Pumpkins allows you to recruite Pumpkins.",
-					"name" : " Cultivation of Pumpkins",
-					"cost" :
-					{
-						"wood"    : 10,
-						"mercury" : 2,
-						"sulfur"  : 4,
+					"cost" : {
+						"ore" : 10,
 						"gold" : 3000
 					},
-					"requires" : ["mageGuild1"]
+					"requires" : [
+						"dwellingLvl3"
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl5" : {
+					"description" : "The Cultivation of Pumpkins allows you to recruite Pumpkins.",
+					"name" : " Cultivation of Pumpkins",
+					"cost" : {
+						"wood" : 10,
+						"mercury" : 2,
+						"sulfur" : 4,
+						"gold" : 3000
+					},
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl6" : {
 					"description" : "The Cultivation of Broccoli allows you to recruite Broccoli.",
 					"name" : "Cultivation of Broccoli",
-					"cost" :
-					{
-						"wood"    : 15,
-						"ore"     : 2,
+					"cost" : {
+						"wood" : 15,
+						"ore" : 2,
 						"crystal" : 10,
 						"gold" : 5000
 					},
-					"requires" : ["dwellingLvl5"]
+					"requires" : [
+						"dwellingLvl5"
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Cultivation of Potatoes allows you to recruite Potatoes.",
 					"name" : "Cultivation of Potatoes",
-					"cost" :
-					{
-						"wood"    : 8,
-						"ore"     : 8,
+					"cost" : {
+						"wood" : 8,
+						"ore" : 8,
 						"mercury" : 8,
-						"sulfur"  : 8,
+						"sulfur" : 8,
 						"crystal" : 8,
-						"gems"    : 8,
+						"gems" : 8,
 						"gold" : 10000
 					},
-					"requires" : ["allOf",["leg1A"],["dwellingLvl4"]]
+					"requires" : [
+						"allOf",
+						[
+							"leg1A"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
 				},
-				"leg1B" :
-				{
+				"leg1B" : {
 					"description" : "The Peas Barracks allow you to recruite Tyrolean peas.",
 					"name" : "Peas Barracks",
-					"cost" :
-					{
-						"wood"    : 5,
+					"cost" : {
+						"wood" : 5,
 						"gold" : 1000
 					},
 					"id" : 37,
 					"upgrades" : "leg1A"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Parlor allows you to recruite Cossack Cucumbers.",
 					"name" : "Parlor",
 					"cost" : {
-						
 						"ore" : 5,
 						"crystal" : 2,
-						"gold" : 1000,
+						"gold" : 1000
 					},
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Glass Dojo allows you to recruite Samurai Onions.",
 					"name" : "Glass Dojo",
 					"cost" : {
 						"gold" : 500,
-						"gems"    : 5,
-						"ore" : 10,
+						"gems" : 5,
+						"ore" : 10
 					},
-					"requires" : ["leg1B"],
+					"requires" : [
+						"leg1B"
+					],
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Menhir allows you to recruite Wild Eggplants.",
 					"name" : "Menhir",
 					"cost" : {
 						"ore" : 10,
-						"gold" : 3000,
+						"gold" : 3000
 					},
-					"requires" : ["special1"],
+					"requires" : [
+						"special1"
+					],
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "The Field of Doom allows you to recruite Pumpkinheads.",
 					"name" : "Field of Doom",
 					"cost" : {
-						"wood"    : 6,
+						"wood" : 6,
 						"crystal" : 4,
 						"gold" : 3000
 					},
-					"requires" : [ "allOf",["mageGuild2"], ["special1"]],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"special1"
+						]
+					],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "The Palace allows you to recruite Broccoli Lords.",
 					"name" : "Palace",
 					"cost" : {
@@ -431,26 +413,34 @@
 						"crystal" : 2,
 						"gems" : 6
 					},
-					"requires" : ["mageGuild2"],
+					"requires" : [
+						"mageGuild2"
+					],
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Castle allows you to recruite Noble Potatoes.",
 					"name" : "Castle",
 					"cost" : {
-						"wood" :     10,
-						"mercury" :  10,
-						"ore" :      10,
-						"crystal" :  10,
-						"gems" :     10,
-						"gold" :  10000,
+						"wood" : 10,
+						"mercury" : 10,
+						"ore" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 10000
 					},
-					"requires" : ["allOf",["leg1B"],["dwellingUpLvl4"]],
-					"upgrades" : "dwellingLvl7",
+					"requires" : [
+						"allOf",
+						[
+							"leg1B"
+						],
+						[
+							"dwellingUpLvl4"
+						]
+					],
+					"upgrades" : "dwellingLvl7"
 				}
 			}
 		}
 	}
 }
-

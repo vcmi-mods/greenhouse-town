@@ -1,100 +1,129 @@
 {
-	"3b":
-	{
+	"3b" : {
 		"level" : 3,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 12,
 		"defense" : 12,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 3
 		},
 		"hitPoints" : 28,
 		"speed" : 7,
 		"growth" : 6,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 220
 		},
-		"abilities" :
-		{
-			"additional_retaliations" :
-			{
-				"type": "ADDITIONAL_RETALIATION",
+		"abilities" : {
+			"additional_retaliations" : {
+				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 3
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 12
 		},
 		"aiValue" : 270,
 		"fightValue" : 270,
-		
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "unit-battle/3b.def",
 			"map" : "unit-map/3b.def",
 			"iconSmall" : "unit-portrait/3b S.bmp",
 			"iconLarge" : "unit-portrait/3b.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.9,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S202ATTK.wav",
 			"defend" : "vori/S202DFND.wav",
 			"killed" : "vori/S202KILL.wav",
 			"move" : "vori/S202MOVE.wav",
 			"wince" : "vori/S202WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Samurai Onions",
 			"singular" : "Samurai Onion"
 		}

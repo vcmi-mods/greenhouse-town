@@ -1,23 +1,23 @@
 {
-	"nicolai" :
-	{
+	"nicolai" : {
 		"class" : "farmer",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/Z nicolai/spec-small.png",
 			"specialtyLarge" : "heroes/Z nicolai/spec-large.png",
 			"large" : "heroes/Z nicolai/portrait-large.png",
 			"small" : "heroes/Z nicolai/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "7a", "min" :  1, "max" :  1 }
+		"army" : [
+			{
+				"creature" : "7a",
+				"min" : 1,
+				"max" : 1
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "learning"
@@ -27,11 +27,10 @@
 				"skill" : "earthMagic"
 			}
 		],
-		"texts" :
-	{
-		"name" : "Farmer Nicolai",
-		"biography" : " Nicolai pamięta czasy sprzed roztopów. Szalejące zimno i trzaskający mróz to ówczesna codzienność Vori, do której nigdy nie zdążył przywyknąć. Dlatego też jak tylko zabrano Miecz Mrozu i nastała wiosna to był najszczęśliwszym człowiekiem pod Słońcem. Szybko odnalazł się w roli Rolnika, a uprawę ziemniaków umiłował najbardziej..",
-		"specialty" : {
+		"texts" : {
+			"name" : "Farmer Nicolai",
+			"biography" : " Nicolai pamięta czasy sprzed roztopów. Szalejące zimno i trzaskający mróz to ówczesna codzienność Vori, do której nigdy nie zdążył przywyknąć. Dlatego też jak tylko zabrano Miecz Mrozu i nastała wiosna to był najszczęśliwszym człowiekiem pod Słońcem. Szybko odnalazł się w roli Rolnika, a uprawę ziemniaków umiłował najbardziej..",
+			"specialty" : {
 				"tooltip" : "Creature Bonus: Potatoes",
 				"name" : "Potatoes",
 				"description" : "Increases Speed of any Potatoes or Noble potatoes by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up)."

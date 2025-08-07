@@ -1,109 +1,149 @@
 {
-	"1a":
-	{
+	"1a" : {
 		"level" : 1,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 6,
 		"defense" : 2,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
 		"hitPoints" : 3,
 		"speed" : 4,
 		"growth" : 30,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 20
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"1b"
 		],
-//		"abilities" :
-//		{
-//		},
+		//		"abilities" :
+		//		{
+		//		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 100,
 			"min" : 50
 		},
 		"aiValue" : 60,
 		"fightValue" : 60,
-		
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "unit-battle/1a.def",
 			"map" : "unit-map/1a.def",
 			"iconSmall" : "unit-portrait/1a S",
 			"iconLarge" : "unit-portrait/1a",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.95,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S200ATTK.wav",
 			"defend" : "vori/S200DFND.wav",
 			"killed" : "vori/S200KILL.wav",
 			"move" : "vori/S200MOVE.wav",
 			"wince" : "vori/S200WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : " Peas",
 			"singular" : " Pea"
 		}

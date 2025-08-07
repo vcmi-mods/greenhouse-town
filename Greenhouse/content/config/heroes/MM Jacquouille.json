@@ -1,25 +1,33 @@
 {
-	"jacquouille" :
-	{
+	"jacquouille" : {
 		"class" : "gardener",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/MM Jacquouille/spec-small.png",
 			"specialtyLarge" : "heroes/MM Jacquouille/spec-large.png",
 			"large" : "heroes/MM Jacquouille/portrait-large.png",
 			"small" : "heroes/MM Jacquouille/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "waterMagic"
@@ -29,18 +37,19 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Jacquouille",
 			"biography" : "From France.",
-		
+
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Lightning Bolt",
 				"name" : "Lightning Bolt",
 				"description" : "Casts Lightning Bolt with damage increased by 5% for every n hero levels (n - target creature level)."
 			}
 		},
-		"spellbook" : [ "lightningBolt" ],
+		"spellbook" : [
+			"lightningBolt"
+		],
 		"specialty" : {
 			"bonuses" : {
 				"magicArrow" : {
@@ -53,5 +62,3 @@
 		}
 	}
 }
-
-

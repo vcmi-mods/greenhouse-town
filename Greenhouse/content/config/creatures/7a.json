@@ -1,106 +1,135 @@
 {
-	"7a":
-	{
+	"7a" : {
 		"level" : 7,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 15,
 		"defense" : 20,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 50,
 			"min" : 30
 		},
 		"hitPoints" : 200,
 		"speed" : 4,
 		"growth" : 1,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 2000,
-			"wood"    : 1,
-			"ore"     : 1,
+			"wood" : 1,
+			"ore" : 1
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"7b"
 		],
-		"abilities" :
-		{
-			"magic_resistance":
-			{
+		"abilities" : {
+			"magic_resistance" : {
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 25,
+				"val" : 25
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
 		"aiValue" : 2500,
 		"fightValue" : 2500,
-		
+
 		"doubleWide" : true,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/7a.DEF",
 			"map" : "unit-map/7a.def",
 			"iconSmall" : "unit-portrait/7a S.bmp",
 			"iconLarge" : "unit-portrait/7a.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S209ATTK.wav",
 			"defend" : "vori/S209DFND.wav",
 			"killed" : "vori/S209KILL.wav",
 			"move" : "vori/S209MOVE.wav",
 			"wince" : "vori/S209WNCE.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Potatoes",
 			"singular" : "Potato"
 		}

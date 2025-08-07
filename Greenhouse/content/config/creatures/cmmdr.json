@@ -1,13 +1,11 @@
 {
-	"cmmdr":
-	{
+	"cmmdr" : {
 		"level" : 0,
 		"special" : true,
 		"faction" : "glasshouse",
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 6
 		},
@@ -19,60 +17,49 @@
 		"cost" : {
 			"gold" : 2000
 		},
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 3
 			}
 		},
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/2b.def",
 			"map" : "unit-map/2b.def",
 			"iconSmall" : "unit-portrait/2b S.bmp",
 			"iconLarge" : "unit-portrait/2b.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "vori/battle/projectile/SHOT198.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -81,11 +68,23 @@
 					"lowerY" : -14
 				},
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S202ATTK.wav",
 			"defend" : "vori/S202DFND.wav",
 			"killed" : "vori/S202KILL.wav",
@@ -93,8 +92,7 @@
 			"wince" : "vori/S202WNCE.wav",
 			"shoot" : "vori/S198SHOT.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Vegan Messiahs",
 			"singular" : "Vegan Messiah"
 		}

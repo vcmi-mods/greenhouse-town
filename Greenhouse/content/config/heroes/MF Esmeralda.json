@@ -1,25 +1,35 @@
 {
-	"esmeralda" :
-	{
+	"esmeralda" : {
 		"class" : "gardener",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/MF Esmeralda/spec-small.png",
 			"specialtyLarge" : "heroes/MF Esmeralda/spec-large.png",
 			"large" : "heroes/MF Esmeralda/portrait-large.png",
 			"small" : "heroes/MF Esmeralda/portrait-small.png"
 		},
-		"spellbook" : [ "summonBoat" ],
-		"army" :
-		[
-			{ "creature" : "1a", "min" : 30, "max" : 50 },
-			{ "creature" : "2a", "min" :  6, "max" :  9 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"spellbook" : [
+			"summonBoat"
+		],
+		"army" : [
+			{
+				"creature" : "1a",
+				"min" : 30,
+				"max" : 50
+			},
+			{
+				"creature" : "2a",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "sorcery"
@@ -29,11 +39,10 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Esmeralda",
 			"biography" : "Wizard.",
-		
+
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery",
@@ -41,9 +50,7 @@
 			}
 		},
 		"specialty" : {
-			"secondary" : "sorcery" 
+			"secondary" : "sorcery"
 		}
 	}
 }
-
-

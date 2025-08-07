@@ -1,93 +1,88 @@
 {
-	"gardener" :
-	{
+	"gardener" : {
 		"faction" : "glasshouse",
-		"animation" :
-		{
-			"battle" : 
-			{
-                                "male"   : "hero/Hero-magic-male-combat.def",
+		"animation" : {
+			"battle" : {
+				"male" : "hero/Hero-magic-male-combat.def",
 				"female" : "hero/Hero-magic-female-combat.def"
-				
-			},
+			}
 		},
 		"mapObject" : {
 			"templates" : {
-				"male"   : { "animation" : "hero/Hero-magic-male-move.def" },
-				"female" : { "animation" : "hero/Hero-magic-female-move.def" }
+				"male" : {
+					"animation" : "hero/Hero-magic-male-move.def"
+				},
+				"female" : {
+					"animation" : "hero/Hero-magic-female-move.def"
+				}
 			}
 		},
-		
+
 		"name" : "Botanist",
-		
+
 		"affinity" : "magic",
-		
+
 		"commander" : "cmmdr",
 
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 0,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
 			"spellpower" : 2,
-			"knowledge"  : 3
+			"knowledge" : 3
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 10,
-			"defence"    : 10,
+		"lowLevelChance" : {
+			"attack" : 10,
+			"defence" : 10,
 			"spellpower" : 40,
-			"knowledge"  : 40
+			"knowledge" : 40
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 10,
-			"defence"    : 10,
+		"highLevelChance" : {
+			"attack" : 10,
+			"defence" : 10,
 			"spellpower" : 40,
-			"knowledge"  : 40
+			"knowledge" : 40
 		},
-		"secondarySkills" :
-		{
-			"pathfinding"  : 4,
-			"archery"      : 1,
-			"logistics"    : 4,
-			"scouting"     : 1,
-			"diplomacy"    : 1,
-			"navigation"   : 1,
-			"leadership"   : 1,
-			"wisdom"       : 8,
-			"mysticism"    : 8,
-			"luck"         : 4,
-			"ballistics"   : 1,
-			"eagleEye"     : 0,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 8,
-			"airMagic"     : 8,
-			"waterMagic"   : 8,
-			"earthMagic"   : 8,
-			"scholar"      : 0,
-			"tactics"      : 1,
-			"artillery"    : 4,
-			"learning"     : 1,
-			"offence"      : 1,
-			"armorer"      : 1,
+		"secondarySkills" : {
+			"pathfinding" : 4,
+			"archery" : 1,
+			"logistics" : 4,
+			"scouting" : 1,
+			"diplomacy" : 1,
+			"navigation" : 1,
+			"leadership" : 1,
+			"wisdom" : 8,
+			"mysticism" : 8,
+			"luck" : 4,
+			"ballistics" : 1,
+			"eagleEye" : 0,
+			"necromancy" : 0,
+			"estates" : 1,
+			"fireMagic" : 8,
+			"airMagic" : 8,
+			"waterMagic" : 8,
+			"earthMagic" : 8,
+			"scholar" : 0,
+			"tactics" : 1,
+			"artillery" : 4,
+			"learning" : 1,
+			"offence" : 1,
+			"armorer" : 1,
 			"intelligence" : 8,
-			"sorcery"      : 7,
-			"resistance"   : 1,
-			"firstAid"     : 4
+			"sorcery" : 7,
+			"resistance" : 1,
+			"firstAid" : 4
 		},
 		"defaultTavern" : 1,
-		"tavern" :
-		{
-			"castle"     : 4,
-			"rampart"    : 4,
-			"tower"      : 4,
-			"inferno"    : 0,
+		"tavern" : {
+			"castle" : 4,
+			"rampart" : 4,
+			"tower" : 4,
+			"inferno" : 0,
 			"necropolis" : 4,
-			"dungeon"    : 4,
+			"dungeon" : 4,
 			"stronghold" : 4,
-			"fortress"   : 4,
-			"conflux"    : 4,
+			"fortress" : 4,
+			"conflux" : 4,
 			"glasshouse" : 6
 		}
 	}

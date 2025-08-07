@@ -1,24 +1,32 @@
 {
-	"ching chang chong" :
-	{
+	"ching chang chong" : {
 		"class" : "farmer",
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/WM ching chang chong/spec-small.png",
 			"specialtyLarge" : "heroes/WM ching chang chong/spec-large.png",
 			"large" : "heroes/WM ching chang chong/portrait-large.png",
 			"small" : "heroes/WM ching chang chong/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "3a", "min" :  3, "max" :  6 },
-			{ "creature" : "3b", "min" :  3, "max" :  6 },
-			{ "creature" : "3a", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			},
+			{
+				"creature" : "3b",
+				"min" : 3,
+				"max" : 6
+			},
+			{
+				"creature" : "3a",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -28,11 +36,10 @@
 				"skill" : "estates"
 			}
 		],
-		"texts" :
-		{
-		"name" : "Ching chang chong",
-		"biography" : "Onion blademaster.",
-		"specialty" : {
+		"texts" : {
+			"name" : "Ching chang chong",
+			"biography" : "Onion blademaster.",
+			"specialty" : {
 				"tooltip" : "Creature Bonus: Onions",
 				"name" : "Onions",
 				"description" : "Increases Speed of any Onions or Samurai Onion by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
@@ -43,5 +50,3 @@
 		}
 	}
 }
-
-

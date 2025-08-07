@@ -1,107 +1,148 @@
 {
-	"4a":
-	{
+	"4a" : {
 		"level" : 4,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 6,
 		"defense" : 13,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 10,
 			"min" : 5
 		},
 		"hitPoints" : 45,
 		"speed" : 3,
 		"growth" : 4,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 300
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"4b"
 		],
-//		"abilities" :
-//		{
-//		},
+		//		"abilities" :
+		//		{
+		//		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 8
 		},
 		"aiValue" : 500,
 		"fightValue" : 500,
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "unit-battle/4a.def",
 			"map" : "unit-map/4a.def",
 			"iconSmall" : "unit-portrait/4a S.bmp",
 			"iconLarge" : "unit-portrait/4a.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.95,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S203ATTK.wav",
 			"defend" : "vori/S203DFND.wav",
 			"killed" : "vori/S203KILL.wav",
 			"move" : "vori/S203MOVE.wav",
 			"wince" : "vori/S203WNCE.wav",
- 			"shoot" : "vori/S203SHOT.wav"                    
+			"shoot" : "vori/S203SHOT.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Eggplants",
 			"singular" : "Eggplant"
 		}

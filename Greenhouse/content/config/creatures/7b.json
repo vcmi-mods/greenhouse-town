@@ -1,98 +1,128 @@
 {
-	"7b":
-	{
+	"7b" : {
 		"level" : 7,
 		"faction" : "glasshouse",
-		
+
 		"attack" : 20,
 		"defense" : 25,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 50,
 			"min" : 30
 		},
 		"hitPoints" : 300,
 		"speed" : 6,
 		"growth" : 1,
-		
-		"cost" :
-		{
+
+		"cost" : {
 			"gold" : 3500,
-			"wood"    : 2,
-			"ore"     : 2
+			"wood" : 2,
+			"ore" : 2
 		},
-		"abilities" :
-		{
-			"magic_resistance":
-			{
+		"abilities" : {
+			"magic_resistance" : {
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 50,
+				"val" : 50
 			},
-			"three_headed_attack":
-			{
-				"type" : "THREE_HEADED_ATTACK",
+			"three_headed_attack" : {
+				"type" : "THREE_HEADED_ATTACK"
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		
-		"advMapAmount" :
-		{
+
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 3
 		},
 		"aiValue" : 3500,
 		"fightValue" : 3500,
-		
+
 		"doubleWide" : true,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "unit-battle/7b.def",
 			"map" : "unit-map/7b.def",
 			"iconSmall" : "unit-portrait/7b S.bmp",
 			"iconLarge" : "unit-portrait/7b.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "vori/S210ATTK.wav",
 			"defend" : "vori/S210DFND.wav",
 			"killed" : "vori/S210KILL.wav",
@@ -101,8 +131,7 @@
 			"startMoving" : "vori/S210EXT1.wav",
 			"endMoving" : "vori/S210EXT2.wav"
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Noble potatoes",
 			"singular" : "Noble potato"
 		}
