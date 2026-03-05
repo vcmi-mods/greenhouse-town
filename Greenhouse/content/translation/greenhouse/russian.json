@@ -1,7 +1,7 @@
 {
-	"building.greenhouse-town.glasshouse.blacksmith.description" : "Кузница снабжает армию баллистами.",
+	"building.greenhouse-town.glasshouse.blacksmith.description" : "Кузница снабжает армию палатками первой помощи.",
 	"building.greenhouse-town.glasshouse.blacksmith.name" : "Кузница",
-	"building.greenhouse-town.glasshouse.capitol.description" : "Капитолий приносит королевству по 4000 золотых в день.",
+	"building.greenhouse-town.glasshouse.capitol.description" : "Капитолий позволяет покупать различные строения и приносит королевству по 4000 золотых в день.",
 	"building.greenhouse-town.glasshouse.capitol.name" : "Капитолий",
 	"building.greenhouse-town.glasshouse.castle.description" : "Замок добавляет две смотровые башни, усиливает защиту города, а также в два раза ускоряет производство основных существ.",
 	"building.greenhouse-town.glasshouse.castle.name" : "Замок",
@@ -61,7 +61,7 @@
 	"building.greenhouse-town.glasshouse.resourceSilo.name" : "Хранилище Ресурсов",
 	"building.greenhouse-town.glasshouse.ship.description" : "Вы можете купить корабли на верфи.",
 	"building.greenhouse-town.glasshouse.ship.name" : "Верфь",
-	"building.greenhouse-town.glasshouse.shipyard.description" : "Вы можете купить корабли на верфи.",
+	"building.greenhouse-town.glasshouse.shipyard.description" : "На верфи можно покупать корабли.",
 	"building.greenhouse-town.glasshouse.shipyard.name" : "Верфь",
 	"building.greenhouse-town.glasshouse.special1.description" : "Компостер позволяют производить обмен существ на ресурсы.",
 	"building.greenhouse-town.glasshouse.special1.name" : "Компостер",
