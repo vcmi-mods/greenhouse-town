@@ -10,6 +10,13 @@
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
+	"chinese" : {
+		"name" : "温室",
+		"description" : "温室——蔬菜与水果之城。",
+		"translations" : [
+			"translation/greenhouse/chinese.json"
+		]
+	},
 	"german" : {
 		"name" : "Gewächshaus",
 		"description" : "Gewächshaus - Stadt des Gemüses und des Obstes.",
