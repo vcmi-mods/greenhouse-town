@@ -17,11 +17,25 @@
 			"translation/greenhouse/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Serre",
+		"description" : "Serre – La ville des fruits et légumes.",
+		"translations" : [
+			"translation/greenhouse/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Gewächshaus",
 		"description" : "Gewächshaus - Stadt des Gemüses und des Obstes.",
 		"translations" : [
 			"translation/greenhouse/german.json"
+		]
+	},
+	"polish" : {
+		"name" : "Greenhouse",
+		"description" : "Greenhouse - Town of Vegetables and Fruits.",
+		"translations" : [
+			"translation/greenhouse/polish.json"
 		]
 	},
 	"russian" : {

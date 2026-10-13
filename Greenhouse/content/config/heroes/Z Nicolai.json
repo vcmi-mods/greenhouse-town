@@ -29,7 +29,7 @@
 		],
 		"texts" : {
 			"name" : "Farmer Nicolai",
-			"biography" : " Nicolai pamięta czasy sprzed roztopów. Szalejące zimno i trzaskający mróz to ówczesna codzienność Vori, do której nigdy nie zdążył przywyknąć. Dlatego też jak tylko zabrano Miecz Mrozu i nastała wiosna to był najszczęśliwszym człowiekiem pod Słońcem. Szybko odnalazł się w roli Rolnika, a uprawę ziemniaków umiłował najbardziej..",
+			"biography" : "Nicolai remembers the time before the thaw. Raging cold and biting frost were the daily reality for the Vori—conditions he never managed to get used to. That is why, as soon as the Sword of Frost was taken away and spring arrived, he was the happiest man alive. He quickly settled into the role of a farmer, and cultivating potatoes became his greatest passion.",
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Potatoes",
 				"name" : "Potatoes",
